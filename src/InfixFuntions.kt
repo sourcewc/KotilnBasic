@@ -16,7 +16,6 @@ fun main(args:Array<String>) {
     val claudia = Person("Claudia")
     //Infix notation also works on members functions (methods).
     sophia likes claudia
-
 }
 class Person(val name: String) {
     val likedPeople = mutableListOf<Person>()
